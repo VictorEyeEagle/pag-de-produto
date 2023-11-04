@@ -23,7 +23,7 @@ li {
 .navul {
   display: flex;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 800px;
   font-size: 25px;
 }
 
@@ -42,9 +42,9 @@ a {
 
 #main {
   margin-top: 100px;
-  margin-bottom: -20px;
-  margin-left: -20px;
-  margin-right: -5px;
+  margin-bottom:-20px;
+  margin-left:-20px;
+  margin-right:-5px;
   background-color: #7586f0;
 }
 
@@ -58,80 +58,58 @@ a {
   color: white;
   width: 100px;
   height: 40px;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
 .subform {
-  margin-top: 13px;
+  margin-top: 13px; 
 }
 
 section {
   text-align: left;
-  margin-left: 25%;
-  margin-right: 25%; 
-  margin-bottom: 100px;
-  font-weight: 600;
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 #info {
-  margin-top: 70px;
+    padding-top:70px; 
 }
 
-.icon1 {
-  position: absolute;
-  left: 200px;
-  top: 300px;
-}
-
-.icon2 {
-  position: absolute;
-  left: 200px;
-  top: 470px;
-}
-
-.icon3 {
-  position: absolute;
-  left: 200px;
-  top: 650px;
-}
+.icon1, .icon2, .icon3 {
+    display:inline-block;
+    margin-right:10px; }
 
 #prices {
-  display: flex;
-  margin: 150px 100px 150px 250px;
+    display:flex; 
+    justify-content:center; 
+    flex-wrap:wrap; 
+    gap:30px; 
+    padding-bottom:150px; 
 }
 
 .infopric {
-  border: 5px solid #1405a1;
-  margin-left: 30px;
+    border-radius:5px;
+    padding:20px; 
+    width:auto; 
+    max-width:300px; 
+    box-shadow:0px 4px 8px rgba(0,0,0,0.2); 
 }
 
 .select {
-  margin-bottom: 30px;
-}
-
-.infopric ul {
-  margin-right: 30px;
-}
-
-.pcname {
-  border-bottom: 2px solid #1405a1;
+    cursor:pointer;
+    margin-top:20px; 
 }
 
 .infopric ul li {
- margin-top: 20px;
- font-family: 'Andale Mono', monospace;
-}
-
-.copyright {
-  font-family: 'Arial Narrow', sans-serif;
-}
-
-.copyright ul {
-  display: flex;
-  margin-left: 570px;
+    text-align:left;
+    padding-left:20px;
 }
 
 .copyright ul li {
-  margin-left: 20px;
-  font-weight: 600;
+    display:inline-block; 
+    margin-right:20px; 
+}
+
+@media screen and (max-width: 600px) {
+  
 }
