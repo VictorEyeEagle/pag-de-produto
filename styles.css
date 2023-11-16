@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: sans-serif;
-  background: linear-gradient(#0032d4b0, #bbff00) ;
+  background: linear-gradient(#0032d4b0, #132d85, #528d0a);
 }
 
 #nav-bar {
@@ -115,4 +115,4 @@ section {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 1000px) {}
