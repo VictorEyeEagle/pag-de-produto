@@ -1,11 +1,12 @@
 body {
   text-align: center;
   font-family: sans-serif;
+  background: linear-gradient(#0032d4b0, #bbff00) ;
 }
 
 #nav-bar {
   display: flex;
-  background-color: #7586f0;
+  background-color: transparent;
   position: fixed;
   margin: -100px 0 0 -8px;
   padding-right: 100%;
@@ -28,7 +29,7 @@ li {
 }
 
 a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-link2 {
@@ -37,15 +38,14 @@ a {
 }
 
 .nav-link2:hover {
- color: white;
+  color: white;
 }
 
 #main {
   margin-top: 100px;
-  margin-bottom:-20px;
-  margin-left:-20px;
-  margin-right:-5px;
-  background-color: #7586f0;
+  margin-bottom: -20px;
+  margin-left: -10px;
+  margin-right: -8px;
 }
 
 #email {
@@ -53,63 +53,66 @@ a {
   height: 30px;
 }
 
-#submit, .select {
+#submit,
+.select {
   background: #040e4d;
   color: white;
   width: 100px;
   height: 40px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .subform {
-  margin-top: 13px; 
+  margin-top: 13px;
 }
 
 section {
   text-align: left;
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: 150;
+  margin-right: auto;
+  padding-right: 150;
 }
 
 #info {
-    padding-top:70px; 
+  padding-top: 70px;
 }
 
-.icon1, .icon2, .icon3 {
-    display:inline-block;
-    margin-right:10px; }
+.icon1,
+.icon2,
+.icon3 {
+  display: inline-block;
+  margin-right: 10px;
+}
 
 #prices {
-    display:flex; 
-    justify-content:center; 
-    flex-wrap:wrap; 
-    gap:30px; 
-    padding-bottom:150px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 150px;
 }
 
 .infopric {
-    border-radius:5px;
-    padding:20px; 
-    width:auto; 
-    max-width:300px; 
-    box-shadow:0px 4px 8px rgba(0,0,0,0.2); 
+  border-radius: 5px;
+  padding: 20px;
+  width: auto;
+  max-width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .select {
-    cursor:pointer;
-    margin-top:20px; 
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 .infopric ul li {
-    text-align:left;
-    padding-left:20px;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .copyright ul li {
-    display:inline-block; 
-    margin-right:20px; 
+  display: inline-block;
+  margin-right: 20px;
 }
 
-@media screen and (max-width: 600px) {
-  
-}
+@media screen and (max-width: 600px) {}
