@@ -6,7 +6,7 @@ body {
 
 #nav-bar {
   display: flex;
-  background-color: transparent;
+  background-color: #0b092e;
   position: fixed;
   margin: -100px 0 0 -8px;
   padding-right: 100%;
@@ -14,7 +14,8 @@ body {
 }
 
 #header-img {
-  width: 100px;
+  width: 100;
+  height: 78;
 }
 
 li {
@@ -34,11 +35,11 @@ a {
 
 .nav-link2 {
   width: 150px;
-  color: #06070a;
+  color: ghostwhite;
 }
 
 .nav-link2:hover {
-  color: white;
+  color: red;
 }
 
 #main {
@@ -71,6 +72,9 @@ section {
   margin-left: 150;
   margin-right: auto;
   padding-right: 150;
+  color: #d1d4e0;
+  font-weight: bold;
+  font-size: 18;
 }
 
 #info {
@@ -113,6 +117,11 @@ section {
 .copyright ul li {
   display: inline-block;
   margin-right: 20px;
+}
+
+iframe {
+  margin-top: 60;
+  margin-bottom: 60;
 }
 
 @media screen and (max-width: 1000px) {}
