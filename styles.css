@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  font-family: sans-serif;
-  background: linear-gradient(#0032d4b0, #132d85, #132d85,#132d85, #1fd0d6);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(#0032d4b0, #132d85, #132d85,#132d85, #0032d4b0);
 }
 
 #nav-bar {
