@@ -1,21 +1,21 @@
 body {
   text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: linear-gradient(#0032d4b0, #132d85, #132d85,#132d85, #0032d4b0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(#3042b6, #0d133615);
 }
 
 #nav-bar {
   display: flex;
   background-color: #0b092e;
   position: fixed;
-  margin: -100px 0 0 -8px;
+  margin: -100px 0px 0px -8px;
   padding-right: 100%;
   z-index: 1;
 }
 
 #header-img {
-  width: 100;
-  height: 78;
+  width: 100px;
+  height: 78px;
 }
 
 li {
@@ -45,8 +45,6 @@ a {
 #main {
   margin-top: 100px;
   margin-bottom: -20px;
-  margin-left: -10px;
-  margin-right: -8px;
 }
 
 #email {
@@ -69,12 +67,12 @@ a {
 
 section {
   text-align: left;
-  margin-left: 150;
+  margin-left: 150px;
   margin-right: auto;
-  padding-right: 150;
+  padding-right: 150px;
   color: #d1d4e0;
   font-weight: bold;
-  font-size: 18;
+  font-size: 18px;
 }
 
 #info {
@@ -120,8 +118,8 @@ section {
 }
 
 iframe {
-  margin-top: 60;
-  margin-bottom: 60;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 1000px) {}
